@@ -14,7 +14,7 @@ import caption_gen
 app = Flask(__name__)
 CORS(app)  # allows a separate frontend (on a different domain) to call this API
 
-Cloud.config.update(
+Cloud.config(
     cloud_name=os.environ.get('CLOUD_NAME'),
     api_key=os.environ.get('API_KEY'),
     api_secret=os.environ.get('API_SECRET')
