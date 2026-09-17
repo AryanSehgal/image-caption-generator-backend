@@ -11,4 +11,4 @@ RUN python -c "from tensorflow.keras.applications.resnet50 import ResNet50; ResN
 
 COPY . .
 
-CMD gunicorn -b 0.0.0.0:$PORT --workers 1 --threads 4 --timeout 120 wsgi:app
+CMD gunicorn -b 0.0.0.0:$PORT --workers 1 --threads 2 --timeout 120 wsgi:app
