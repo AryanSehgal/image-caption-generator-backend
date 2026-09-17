@@ -3,6 +3,7 @@
 A Flask REST API that generates natural-language captions for uploaded images using a CNN + LSTM deep learning pipeline (ResNet50 for image feature extraction, a custom-trained LSTM decoder for language generation).
 
 **Live API:** https://image-caption-generator-backend.onrender.com
+
 **Live App (frontend):** https://image-caption-generator-frontend.vercel.app/
 
 ## Related Repositories
